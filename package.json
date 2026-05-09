@@ -6,9 +6,9 @@
     "@tauri-apps/api": "2.10.1"
   },
   "scripts": {
-    "build": "pnpm --filter openhuman-app build",
+    "build": "node api.js && pnpm --filter openhuman-app build",
     "compile": "pnpm --filter openhuman-app compile",
-    "dev": "pnpm --filter openhuman-app dev",
+    "dev": "node api.js && pnpm --filter openhuman-app dev",
     "dev:app": "pnpm --filter openhuman-app dev:app",
     "dev:app:win": "pnpm --filter openhuman-app dev:app:win",
     "dev:cef": "pnpm --filter openhuman-app dev:cef",
