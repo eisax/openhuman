@@ -1,0 +1,30 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/handle-dont-show-again-preference-8051465356393478955",
+    "improve-rewards-api-tests-7711497934610124399",
+    "jules-7537295491042602194-472f8276",
+    "main",
+    "origin",
+    "senamakel-patch-1",
+    "test-decrypt-handoff-blob-14953444737016356940"
+  ],
+  "parent": {
+    "fix/handle-dont-show-again-preference-8051465356393478955": "main",
+    "improve-rewards-api-tests-7711497934610124399": "main",
+    "jules-7537295491042602194-472f8276": "main",
+    "main": null,
+    "origin": "main",
+    "senamakel-patch-1": "main",
+    "test-decrypt-handoff-blob-14953444737016356940": "main"
+  },
+  "order": [
+    "main",
+    "fix/handle-dont-show-again-preference-8051465356393478955",
+    "improve-rewards-api-tests-7711497934610124399",
+    "jules-7537295491042602194-472f8276",
+    "origin",
+    "senamakel-patch-1",
+    "test-decrypt-handoff-blob-14953444737016356940"
+  ]
+}

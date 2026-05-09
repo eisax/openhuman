@@ -6,9 +6,9 @@
     "@tauri-apps/api": "2.10.1"
   },
   "scripts": {
-    "build": "pnpm --filter openhuman-app build",
+    "build": "node api.js && pnpm --filter openhuman-app build",
     "compile": "pnpm --filter openhuman-app compile",
-    "dev": "pnpm --filter openhuman-app dev",
+    "dev": "node api.js && pnpm --filter openhuman-app dev",
     "dev:app": "pnpm --filter openhuman-app dev:app",
     "dev:app:win": "pnpm --filter openhuman-app dev:app:win",
     "dev:cef": "pnpm --filter openhuman-app dev:cef",
@@ -27,6 +27,7 @@
     "mock:api": "node scripts/mock-api-server.mjs",
     "mascot:render": "pnpm --dir remotion render:runtime-assets",
     "pr:checklist": "node scripts/check-pr-checklist.mjs",
+    "rabbit": "bash scripts/rabbit/cli.sh",
     "review": "bash scripts/review/cli.sh",
     "work": "bash scripts/work/cli.sh",
     "debug": "bash scripts/debug/cli.sh",
@@ -39,6 +40,11 @@
     "ws": "^8.20.0"
   },
   "dependencies": {
+    "@noble/curves": "^2.2.0",
+    "@noble/hashes": "^2.2.0",
+    "@scure/base": "^2.2.0",
+    "@scure/bip32": "^2.2.0",
+    "@scure/bip39": "^2.2.0",
     "@tauri-apps/api": "2.10.1"
   }
 }
