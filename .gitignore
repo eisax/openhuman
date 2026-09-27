@@ -150,3 +150,6 @@ diff-coverage.md
 
 # CI lane runner output (scripts/ci/self-hosted/lanes.mjs)
 /ci-out/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
